@@ -12,13 +12,14 @@ An *add-on module* is a special type of module that adds functionality to your a
 
 A *solution* is a Mendix app that has out-of-the-box solution suitable for multiple customers. Solution, as any other app, may consist of several modules, including app modules (standard modules) and add-on modules, but it also has solution modules that form the **solution core**. Solution modules have IP protection enabled. For more information on IP protection, see [IP Protection](/appstore/creating-content/sol-ip-protection/). 
 
-## Limitations
+## Limitations and Known Issues
 
-When consuming add-on modules and solutions, you may come across the following limitations:
+When consuming add-on modules and solutions, you may come across the following limitations and known issues:
 
 * When debugging add-on and solution modules, you cannot step into microflows, debugging will automatically use **Step Over**.
 * If app modules and add-on modules or solutions have conflicting custom widgets, you are prompted with a warning showing the sources of the conflicts (module and widget package names) to find a workaround. An automatic fix is not implemented.
 * When a constant is hidden, you cannot configure its value in the **App settings**. For more information on app settings, see the [Configuration Tab](/refguide/app-settings/#configurations) section in *App Settings*. 
+* If there are add-on modules imported into Studio Pro and the application is deployed for Eclipse using menu option **App > Deploy for Eclipse**, there are known build failures in Java source code.
 
 ## Importing an Add-on Module 
 
