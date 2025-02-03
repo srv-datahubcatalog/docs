@@ -59,8 +59,11 @@ You can also use <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> to disable a 
     {{% alert color="warning" %}}A current limitation is that local variables may not be visible when debugging Java actions in Eclipse. This can affect your ability to inspect variable values during execution.{{% /alert %}}
 
 ## Known Issues
-1. If there are Add-On modules imported into the studio pro and application is deployed for eclipse using menu option **App -> Deploy for Eclipse**, there are known build failures java source code.
 
+There are the following known issues:
+* If there are add-on modules imported into Studio Pro and the application is deployed for Eclipse using menu option **App > Deploy for Eclipse**, there are known build failures in Java source code.
+
+  
 ## Read More
 
 * [Find the Root Cause of Runtime Errors](/howto/monitoring-troubleshooting/finding-the-root-cause-of-runtime-errors/)
