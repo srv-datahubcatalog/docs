@@ -12,7 +12,7 @@ An *add-on module* is a special type of module that adds functionality to your a
 
 A *solution* is a Mendix app that has out-of-the-box solution suitable for multiple customers. Solution, as any other app, may consist of several modules, including app modules (standard modules) and add-on modules, but it also has solution modules that form the **solution core**. Solution modules have IP protection enabled. For more information on IP protection, see [IP Protection](/appstore/creating-content/sol-ip-protection/). 
 
-## Limitations and Known Issues
+## Limitations
 
 When consuming add-on modules and solutions, you may come across the following limitations and known issues:
 
